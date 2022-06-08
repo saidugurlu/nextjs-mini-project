@@ -1,9 +1,10 @@
-export const Code = () => {
-  return (
-    <>
-      <h2>Code Page</h2>
-      <p>These are the code examples.</p>
-    </>
-  );
+export const Nav = () => {
+    return (
+        <nav>
+            <span>Welcome</span>
+            <span className="separator">|</span>
+            <span>Code</span>
+        </nav>
+    );
 };
 export default Code;
